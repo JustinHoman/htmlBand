@@ -1,0 +1,39 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    margin-top: 80px;
+
+    background-image: url("../img/background.jpg");
+
+    color: white;
+}
+
+img
+{
+    display: block;
+
+    width: 450px;
+    padding-bottom: 10px;
+}
+
+audio
+{
+    width: 450px;
+}
+
+.navbar-fixed
+{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+
+    width: 100%;
+}
+
+main
+{
+    flex: 1 0 auto;
+}
